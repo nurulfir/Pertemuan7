@@ -1,15 +1,10 @@
 # Praktikum 7
-
 ## Latihan 1
-
-* Buat program sederhada dengan input 2 buah bilangan, kemudian
-tentukan bilangan terbesar dari kedua bilangan tersebut
-menggunakan statement if.
-
-``````
+* Buat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan tersebut menggunakan statement if.
+### Programnya:
+``````python
 bilangan1 = float(input("Masukan bilangan pertama : "))
 bilangan2 = float(input("Masukan bilangan kedua : "))
-
 
 if bilangan1 > bilangan2:
    bilangan_terbesar = bilangan1
@@ -18,18 +13,15 @@ else:
 
    print("Bilangan terbesar adalah :", bilangan_terbesar )
 ``````
+ ### Maka outputnya:
 
- ### Maka outputnya
  ![Alt text](ol1.png)
-
 
 ## Latihan 2
 
-* Buat program untuk mengurutkan data berdasarkan input sejumlah
-data (minimal 3 variable input atau lebih), kemudian tampilkan
-hasilnya secara berurutan mulai dari data terkecil.
-
-``````
+* Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
+### Programnya:
+``````python
 # Meminta pengguna memasukkan 3 bilangan
 print("Program mengurutkan data")
 bil1 = int(input("Bilangan ke-1: "))
@@ -40,21 +32,19 @@ data = (bil2, bil3, bil1)
 
 print("Urutan bilangan :", data)
 ``````
+### Maka outputnya:
 
-### Maka outputnya
 ![Alt text](ol2.png)
 
 # Lab 3: Perulangan
-
 ## Latihan 1
-
 * Buat program dengan perulangan bertingkat (nested) for yang
 menghasilkan output sebagai berikut:
 
 ![Alt text](img.png)
 
-## kode programnya
-``````
+### Programnya:
+``````python
 baris = 10
 kolom = baris
 
@@ -64,22 +54,18 @@ for bar in range(baris):
         print("{0:>5}".format(tab), end='')
     print()
 ``````
-
-## maka outputnya
+### Maka outputnya:
 
 ![Alt text](olp1.png)
 
-
 ## Latihan 2
-
 * Tampilkan n bilangan acak yang lebih kecil dari 0.5.
 * nilai n diisi pada saat runtime
 * anda bisa menggunakan kombinasi while dan for untuk
 menyelesaikannya
 
-## kode programnya
-
-``````
+### Programnya:
+``````python
 import random
 
 n = int(input("Masukkan jumlah n: "))
@@ -93,6 +79,6 @@ while count < n:
         count += 1
 
 ``````
+### Maka outputnya:
 
-## maka outputnya
 ![Alt text](olp2.png)

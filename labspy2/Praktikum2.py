@@ -1,5 +1,3 @@
-# Program untuk menentukan bilangan terbesar dari tiga buah bilangan
-
 # input dari pengguna
 bilangan1 = float(input("Masukkan bilangan pertama: "))
 bilangan2 = float(input("Masukkan bilangan kedua: "))

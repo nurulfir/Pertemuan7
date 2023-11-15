@@ -1,14 +1,12 @@
+# Pertemuan 7 Bahasa Pemrograman
 # Praktikum 2
-
-## Flowchart
+## Program untuk menentukan bilangan terbesar dari tiga bilangan
+### Flowchartnya:
 
 ![Alt text](Flowchartlabspy02.png)
 
-## Kode Program
-
-``````
-# Program untuk menentukan bilangan terbesar dari tiga bilangan
-
+### Programnya:
+``````python
 # Membaca input dari pengguna
 bilangan1 = float(input("Masukkan bilangan pertama: "))
 bilangan2 = float(input("Masukkan bilangan kedua: "))
@@ -25,7 +23,6 @@ else:
 # Menampilkan hasil
 print("Bilangan terbesar adalah:", terbesar)
 ``````
-
 ## Maka Outputnya Adalah :
 
 ![Alt text](hlabspy02.png)

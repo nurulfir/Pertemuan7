@@ -1,10 +1,8 @@
 # Labspy03
-
-## Latihan 1
-
-## Kode Program
-
-``````
+# Latihan 1
+## Tampilkan n bilangan acak yang lebih kecil dari 0.5.
+### Programnya:
+``````python
 import random
 
 n = int(input("Masukkan jumlah n: "))
@@ -16,18 +14,18 @@ while count < n:
     if bilangan < 0.5:
         print(bilangan)
         count += 1
-
+        
 print("Selesai")
 ``````
-
-## Maka Outputnya Adalah :
+### Maka Outputnya Adalah :
 
 ![Alt text](hlatihan1m3.png)
 
-## Latihan  2
-### Kode Program
+# Latihan  2
+## Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan.
+### Programnya:
 
-``````
+``````python
 # Variabel untuk menyimpan bilangan terbesar
 bilangan_terbesar = None
 
@@ -47,16 +45,13 @@ if bilangan_terbesar is not None:
 else:
     print("Tidak ada bilangan yang dimasukkan.")
 ``````
-
 ### Maka Outputnya Adalah : 
 
 ![Alt text](hlatihan2m3.png)
 
-## Program 1
-
-### Kode Program
-
-``````
+# Program 1
+### Programnya:
+``````python
 modal_awal = 100_000_000  # Modal awal sebesar 100 juta
 labas = []  # Daftar laba bulanan
 
@@ -87,6 +82,6 @@ for laba in labas:
 print(f"Total Laba Adalah: {total_laba:.2f}")
 ``````
 
-### Maka Outputnya Adalah : 
+### Maka Outputnya Adalah: 
 
 ![Alt text](hprogram1.png)
